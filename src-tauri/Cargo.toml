@@ -26,6 +26,9 @@ tauri = { version = "1.5.2", features = [
   "api-all",
 ] }
 rdev = "0.5.3"
+opencv = { version = "0.85.3", features = ["clang-runtime"] }
+screenshots = "0.8.4"
+tesseract = "0.15.0"
 
 [dependencies.windows]
 version = "0.51.1"
